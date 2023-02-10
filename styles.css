@@ -1,26 +1,73 @@
 .title-bar {
-    color:white;
-    background-color: lightslategray;
-    height: 50px;
+    color:black;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    height: 60px;
     display: flex;
-    align-items: baseline;
     gap: 15px;
 }
 
 .logo-title {
-    font-size: 48px;
-    padding-right: 10px;
-    padding-left: 35px;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 40px;
+    margin-top: auto;
+    border-style: solid;
+    display: flex;
+    border-width: 1px;
+    border-radius: 10px;
 }
 
-.options-title {
-    font-size: 18px;
+.explore {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+
+.explore-logo{
+    font-size: 13px;
+    border-style: solid;
+    margin-top: auto;
+    align-self: center;
+}
+
+.explore-text{
+    font-size: 15px;
+    border-style: solid;
+    align-self: center;
+}
+
+
+.favorites {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+
+.favorites-logo{
+    font-size: 13px;
+    border-style: solid;
+    margin-top: auto;
+    align-self: center;
+}
+
+.favorites-text{
+    font-size: 15px;
+    border-style: solid;
+    align-self: center;
+
 }
 
 .about-title {
-    font-size: 18px;
+    font-size: 15px;
     margin-left: auto;
+    margin-top: auto;
     padding-right:60px;
+    border-style: solid;
 }
 
 
