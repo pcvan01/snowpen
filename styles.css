@@ -44,24 +44,6 @@ body {
     align-self: center;
 }
 
-.favorites {
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-}
-
-.favorites-logo{
-    margin-top: auto;
-    align-self: center;
-}
-
-.favorites-text{
-    font-size: 15px;
-    align-self: center;
-
-}
-
 .about-title {
     font-size: 15px;
     margin-left: auto;
