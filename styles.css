@@ -1,7 +1,11 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    margin-left:25px;
-    margin-right:25px;
-    padding:0
+    margin-left:4%;
+    margin-right:2%;
+    padding:0;
 }
 
 a {
@@ -60,4 +64,40 @@ a:hover {
     margin-left: auto;
     margin-top: auto;
     padding-right:40px;
+}
+
+.main-body {
+    display: flex;
+    box-sizing: border-box;
+    border-style: solid;
+    flex-direction: column;
+    background-image: url("./images/—Pngtree—korean new year sunrise blue_8796778.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: center;
+    height: 60%;
+    width: 100%;
+    margin-top: 1%;
+  }
+
+ .search-bar {
+   display: flex;
+   box-sizing: border-box;
+   margin-top: 5em;
+   margin-bottom: 3em;
+}
+
+.search-bar div {
+    flex: 1 1 0;
+}
+
+.search-bar-blank {
+    border-style: solid;
+    text-align: center;    
+}
+
+.individual-bottom-box {
+    background-color: white;
+    border-style: solid;
+    text-align: center;
 }
