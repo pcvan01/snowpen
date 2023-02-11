@@ -73,11 +73,12 @@ a:hover {
     flex-direction: column;
     background-image: url("./images/—Pngtree—korean new year sunrise blue_8796778.jpg");
     background-repeat: no-repeat;
-    /*background-size: cover;*/
+    background-size: cover;
     background-position: center;
     height: 60%;
     width: 100%;
     margin-top: 1%;
+    border-radius: 10px;
   }
 
  .search-bar {
